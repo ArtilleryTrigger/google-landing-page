@@ -107,3 +107,28 @@ button:hover {
     cursor: pointer;
     box-shadow: 0 0 10px 0 gainsboro;
 }
+
+#footer {
+    background-color: #F2F2F2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#f1 {
+    padding: 15px 0 5px 25px;
+    color: rgb(87, 87, 87);
+}
+
+#f2 {
+    float: left;
+    padding: 15px 0 15px 25px;
+    margin-top: 15px 0;
+}
+
+#f3 {
+    float: right;
+    padding: 15px 25px 15px 0;
+    margin-top:15px 0;
+    word-spacing: 10px;
+}
