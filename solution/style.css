@@ -15,7 +15,7 @@ body {
     margin-right: 10px;
 }
 
-.header-img {
+.header-img:hover {
     box-shadow: 0 0 5px gainsboro;
     border-radius: 25px;
     cursor: pointer;
@@ -40,4 +40,8 @@ a:hover {
 
 ul>a, ul>img {
     padding: 0 8px;
+}
+
+#profile {
+    width: 42px;
 }
