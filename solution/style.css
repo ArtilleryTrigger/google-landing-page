@@ -3,3 +3,41 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
 }
+
+.header-nav {
+    float: right;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.header-img {
+    box-shadow: 0 0 5px gainsboro;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.4rem;
+    align-items: center;
+}
+
+a {
+    margin: 5px 5px;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul>a, ul>img {
+    padding: 0 8px;
+}
